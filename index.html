@@ -17,7 +17,7 @@
 <body>
 
     <ul id="slide-out" class="sidenav">
-        <li><a href="#!"><i class="material-icons">home</i>Главная</a></li>
+        <li><a href="#header"><i class="material-icons">home</i>Главная</a></li>
         <li><a href="#about"><i class="material-icons">people</i>О нас</a></li>
         <li><a href="#services"><i class="material-icons">grade</i>Услуги</a></li>
         <li><a href="#contacts"><i class="material-icons">phone</i>Контакты</a></li>
@@ -28,7 +28,7 @@
     </ul>
 
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__title">
                 <a class="burger sidenav-trigger" data-target="slide-out">
@@ -70,7 +70,7 @@
             </div>
 
         </div>
-        <div class="container"</div>
+        <div class="container" </div>
             <h2 class="text-h2 project-h2">Наши самые большие проекты</h2>
             <div class="about__flex">
                 <div class="about__flex-item">
@@ -103,6 +103,28 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal Trigger -->
+    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Заголовок окна</h4>
+            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Lorem вскоре своих
+                дорогу? Предупреждал имеет маленькая однажды вдали за продолжил, ведущими подзаголовок, вскоре своих то
+                заглавных путь lorem переписали злых пояс о. Предупреждал своих рот знаках свое щеке текстов
+                парадигматическая дал безопасную большой, вопрос, строчка имени заголовок грамматики выйти власти страну
+                всеми что журчит свою вскоре. Прямо назад ее дороге гор домах послушавшись языком. Подпоясал пустился
+                подзаголовок одна родного, но имеет? Приставка то напоивший переписали щеке деревни, пор, проектах имени
+                свой свою вопрос пунктуация безорфографичный послушавшись заглавных если коварных переулка сбить текст
+                живет. Строчка власти большой родного вдали коварных?</p>
+        </div>
+        <div class="modal-footer close-modal">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat modall-btn ">Закрыть</a>
+        </div>
+    </div>
+
     <section class="request">
         <div class="container">
             <div class="request__flex">
@@ -111,10 +133,10 @@
                     <h5 class="request__h5">Реализуем самые смелые решения в России</h5>
                 </div>
                 <div class="request__flex-right">
-                    <button class="request__btn">
+                    <a class="request__btn modal-trigger" href="#modal1">
                         <img src="img/envelope.svg" alt="Envelope" class="request__icon">
                         Ваш запрос
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -153,28 +175,28 @@
     <section class="portfolio">
         <div class="portfolio__grid">
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
             <div class="portfolio__grid-item">
-                <img class="portfolio__img" src="img/city.jpg" alt="portfolio">
+                <img class="portfolio__img materialboxed" src="img/city.jpg" alt="portfolio">
             </div>
 
         </div>
@@ -272,6 +294,20 @@
             </div>
         </div>
     </section>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Заголовок окна2</h4>
+            <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Рекламных собрал
+                свою злых пояс но назад составитель, запятой вскоре ее приставка парадигматическая языком текстов! Но
+                моей дороге взобравшись города лучше! Которое вершину вскоре вдали, текстов подзаголовок грамматики
+                знаках она. Строчка необходимыми, выйти знаках свой осталось безопасную если пор рукописи.
+            </p>
+        </div>
+        <div class="modal-footer close-modal">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat modall-btn ">Закрыть</a>
+        </div>
+    </div>
     <section class="request">
         <div class="container">
             <div class="request__flex">
@@ -280,10 +316,10 @@
                     <h5 class="request__h5">Оставьте заявку и мы свяжемся с вами</h5>
                 </div>
                 <div class="request__flex-right">
-                    <button class="request__btn">
+                    <a class="request__btn modal-trigger" href="#modal2">
                         <img src="img/envelope.svg" alt="Envelope" class="request__icon">
                         Ваш запрос
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
